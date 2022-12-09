@@ -1,6 +1,6 @@
 # Shi---Chine
 
-Programme developpé par Gregory Bhowany, Imane El Aiboud, Mohammed Jad Azour et Dahirou Abba pour le projet de SHI sur la chine.
+Programme en ligne de commande (command-line based program) developpé par Gregory Bhowany, Imane El Aiboud, Mohammed Jad Azour et Dahirou Abba pour le projet de SHI sur la chine.
 
 Sur Windows :
 Pour lancer le programme, il faut aller dans le dossier dézippé, lancer le terminal (cmd) puis faire la commande "./shi-questionnaire" afin d'executer ce dernier.
