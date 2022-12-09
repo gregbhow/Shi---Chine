@@ -1,5 +1,7 @@
 # Shi---Chine
 
+Avant de commencer, veuillez noter que gcc++ est obligatoire (en installant MinGW par exemple) afin d'aider a la compilation et le lancement du programme
+
 Programme en ligne de commande (command-line based program) developpé par Gregory Bhowany, Imane El Aiboud, Mohammed Jad Azour et Dahirou Abba pour le projet de SHI sur la chine.
 
 Sur Windows :
