@@ -35,7 +35,7 @@ bool Shi::verifcationNombre(string str)
     {
         test = false;
         response = true;
-        cout << "Erreur..veuillez saisir un nombre valide (entre 0 et 5) svp";
+        cout << "Erreur..veuillez saisir un nombre valide (de 0 a 5) svp" << endl;
     }
     else
     {
@@ -49,7 +49,7 @@ bool Shi::verifcationNombre(string str)
         if (note < 1 || note > 5)
         {
             response = true;
-            cout << "Erreur..veuillez saisir un nombre valide (de 0 a 5) svp";
+            cout << "Erreur..veuillez saisir un nombre valide (de 0 a 5) svp" << endl;
         }
         else
         {
@@ -141,7 +141,7 @@ void Shi::confusianisme()
 // methode moyenne reponse
 int Shi::moyenneCompteur()
 {
-    return getCompteurNote() / 5; //a changer a 10
+    return getCompteurNote() / 5; // a changer a 10
 }
 
 // integration du construteur par defaut
