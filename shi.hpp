@@ -23,6 +23,7 @@ namespace std
         void questionnaire();
         void taoisme();
         void confusianisme();
+        void confusianismeEtTaoiste();
         int moyenneCompteur();
         bool verifcationNombre(string str);
         // declarations des constructeurs

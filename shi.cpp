@@ -91,7 +91,7 @@ void Shi::questionnaire()
     reponse = true;
     do
     {
-        cout << "Numero san (3) : Vous vous donnez tellement a fond dans une matiere que pour vous, c'est une seconde nature : ";
+        cout << "Numero san (3) : 'Rien ne se perd, rien ne se crée, tout se transforme' -Antoine Lavoisier. Etre vous-daccord? ";
         getline(cin, responseString);
         reponse = verifcationNombre(responseString);
     } while (reponse);
@@ -100,7 +100,7 @@ void Shi::questionnaire()
     reponse = true;
     do
     {
-        cout << "Numero si (4) : Vous vous donnez tellement a fond dans une matiere que pour vous, c'est une seconde nature : ";
+        cout << "Numero si (4) :Vous vous trouvez dans une salle 'vide'. Pour vous, presente-elle une infinité de possibilités (ex : un vaisseau spacial, le titanic ou soyons une game de LOL)? ";
         getline(cin, responseString);
         reponse = verifcationNombre(responseString);
     } while (reponse);
@@ -109,7 +109,7 @@ void Shi::questionnaire()
     reponse = true;
     do
     {
-        cout << "Numero wu (5) : Vous vous donnez tellement a fond dans une matiere que pour vous, c'est une seconde nature : ";
+        cout << "Numero wu (5) : Vous etes quelqu'un qui porte peu d'importance aux regles, les respecter c'est pas votre fort.";
         getline(cin, responseString);
         reponse = verifcationNombre(responseString);
     } while (reponse);
@@ -121,9 +121,13 @@ void Shi::questionnaire()
     {
         confusianisme();
     }
-    else if (moyenneCompteur() >= 3)
+    else if (moyenneCompteur() > 3)
     {
         taoisme();
+    }
+     else if (moyenneCompteur() == 3)
+    {
+        confusianismeEtTaoiste();
     }
 }
 // methode tao
@@ -137,6 +141,11 @@ void Shi::confusianisme()
 {
     cout << "confusianiste ! \n"
          << endl;
+}
+// methode confusianisme Et Taoiste
+void Shi::confusianismeEtTaoiste()
+{
+    cout << "confusianiste et egalement taoiste ! Impressionant\n"<< endl;
 }
 // methode moyenne reponse
 int Shi::moyenneCompteur()
