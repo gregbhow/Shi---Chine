@@ -4,7 +4,7 @@ Avant de commencer, veuillez noter que gcc++ est indispensable pour le cas Windo
 
 Programme en ligne de commande (command-line based program) developpé par Gregory Bhowany, Imane El Aiboud, Mohammed Jad Azour et Dahirou Abba pour le projet de SHI sur la chine.
 
-Sur Linux, Windows eou Mac (si gcc++ installée):
+Sur Linux, Windows ou Mac (si gcc++ installée):
 Pour lancer le programme, il faut aller dans le dossier dézippé,  lancer le terminal puis faire la commande "make" et ensuite "./shi-questionnaire" afin d'executer ce dernier.
 
 Sur un navigateur Web :
