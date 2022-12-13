@@ -68,7 +68,7 @@ void Shi::questionnaire()
     cout << "\nProjet SHI : La Chine par Gregory Bhowany, Imane El Aiboud, Mohammed Jad Azour, Dahirou Abba" << endl;
     cout << "-----------------------------------------------------------------------------------------------" << endl;
     cout << "\nNi Hao cher utilisateur ! Aujourd'hui nous allons faire un quiz de 5 questions afin de determiner si vous avez une pensee taoiste ou confusianiste (ou les deux hein) !" << endl;
-    cout << "Chaque questions/affirmations sera notees de 1 (pas d'accord du tout), 2 (plutot pas d'accord) , 3 (ni d'accord ni pas d'accord),4 (plutot d'accord) et 5 (totalement d'accord) ! \nSoyez le plus honnete possible ! Qu-attendons-nous, c'est parti ! :) " << endl;
+    cout << "Chaque questions/affirmations sera notees de 1 (pas d'accord du tout), 2 (plutot pas d'accord) , 3 (ni d'accord ni pas d'accord),4 (plutot d'accord) a 5 (totalement d'accord) ! \nSoyez le plus honnete possible ! Qu-attendons-nous, c'est parti ! :) " << endl;
     // premiere question
     do
     {
@@ -100,7 +100,7 @@ void Shi::questionnaire()
     reponse = true;
     do
     {
-        cout << "Numero si (4) :Vous vous trouvez dans une salle 'vide'. Pour vous, presente-elle une infinite de possibilites (ex : un vaisseau spacial, le titanic ou soyons une game de LOL)? :";
+        cout << "Numero si (4) :Vous vous trouvez dans une salle 'vide'. Pour vous, presente-elle une infinite de possibilites (ex : un vaisseau spacial, le titanic ou soyons fou une game de LOL (League Of Legends))? :";
         getline(cin, responseString);
         reponse = verifcationNombre(responseString);
     } while (reponse);
