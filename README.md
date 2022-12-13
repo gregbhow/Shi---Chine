@@ -8,6 +8,6 @@ Sur Linux, Windows ou Mac (si gcc++ installée):
 Pour lancer le programme, il faut aller dans le dossier dézippé,  lancer le terminal puis faire la commande "make" et ensuite "./shi-questionnaire" afin d'executer ce dernier.
 
 Sur un navigateur Web :
-veuillez aller sur ce lien : https://www.online-cpp.com/xuzSpgJN40
+veuillez aller sur ce lien : https://www.online-cpp.com/mMHaDwQJ2c
 Pour lancer le programme, il suffit de cliquer sur "run" lorsqu'on est dans le "main.cpp" afin d'executer le programme.
-Veuillez noter que cela sera un legerement plus lent que la version en local.
+Veuillez noter que cela sera un legerement plus lent que la version installée en local.
